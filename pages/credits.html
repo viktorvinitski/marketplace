@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/credits.css">
+    <title>Fin</title>
+</head>
+<body>
+    <section class="header">
+        <div class="circle"></div>
+        <div class="wrapper">
+            <header>
+                <a class="logo" href="/index.html">Делай бизнес</a>
+                <div class="header-links">
+                    <a href="/pages/credits.html">Кредиты</a>
+                    <a href="#!">Лизинг</a>
+                    <a href="/pages/innovations.html">Инновации</a>
+                    <a href="#!">Консалтинг</a>
+                    <a href="#!">FAQ</a>
+                    <a href="#!">Контакты</a>
+                </div>
+            </header>
+            <div class="header_desc">
+                <div>Кредиты для бизнеса</div>
+                <div>Здесь представлены лучшие кредиты от банков, работающих с малым и средним бизнесом в Беларуси. Быстро и удобно узнайте условия кредитования для юридичских лиц и подайте заявку онлайн. </div>
+            </div>
+            <div class="credit_goal">Цель кредита</div>
+            <div class="filters">
+                <div>
+                    <select class="drop_list">
+                        <option>Финансирование текущей деятельности</option>
+                        <option>Пункт 2</option>
+                    </select>
+                    <input class="credit_sum" type="text" placeholder="Сумма кредита(BR)">
+                    <select class="credit_length">
+                        <option>Срок кредита</option>
+                        <option>Пункт 2</option>
+                        <img src="/img/select_arrow.svg" alt="">
+                    </select>
+                </div>
+                <button>Подобрать</button>
+            </div>
+            <div class="change_typeof-credit">
+                <div>На текущую деятельность</div>
+                <div  class="active">На рефинансирование</div>
+                <div>Экспресс-кредит</div>
+                <div>Инвестиционный кредит</div>
+            </div>
+        </div>
+    </section>
+    <section class="credits">
+        <div class="wrapper">
+            <div class="sort_credits">
+                <select oninput="sortByPercent()" class="sort_credits-list">
+                    <option>Сначала с низкой ставкой</option>
+                    <option>Сначала с высокой ставкой</option>
+                </select>
+            </div>
+            <div id="creditList" class="credits_list">
+                <!--  -->
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <section class="footer">
+        <div class="wrapper">
+            <div class="footer_content">
+                <div class="footer_main-links">
+                    <a href="/index.html" class="footer_logo">Делай бизнес</a>
+                    <div class="footer_links">
+                        <a href="/pages/credits.html">Кредиты</a>
+                        <a href="#!">Лизинг</a>
+                        <a href="/pages/innovations.html">Инновации</a>
+                        <a href="#!">Консалтинг</a>
+                        <a href="#!">FAQ</a>
+                        <a href="#!">Контакты</a>
+                    </div>
+                </div>
+                <div class="link-pics">
+                    <a href="#!">
+                        <img src="/img/telegram.svg" alt="tg">
+                    </a>
+                    <a href="#!">
+                        <img src="/img/facebook.svg" alt="fb">
+                    </a>
+                    <a href="#!">
+                        <img src="/img/instagram.svg" alt="ig">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
