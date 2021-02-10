@@ -91,7 +91,7 @@ header a{
 .drop_list,
 .credit_length,
 .credit_sum{
-    width: 310px;
+    width: 30%;
     height: 64px;   
     border: none;
     padding: 0 35px 0 25px;
@@ -100,7 +100,7 @@ header a{
     border-radius: 8px;
 }
 .drop_list{
-    width: 400px;
+    width: 37%;
 }
 .credit_length,
 .drop_list{
@@ -114,9 +114,13 @@ header a{
     margin-top: 5px;
     justify-content: space-between;
 }
+.filters div{
+    flex: 11;
+}
 .filters button{
     padding: 20px 42px;
-    width: 172px;
+    flex: 1;
+    /* width: 172px; */
     height: 62px;
     margin-left: 25px;
     background-color: #F18C3C;
