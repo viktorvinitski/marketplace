@@ -28,12 +28,6 @@ header a{
     line-height: 29px;
     color: #1C313B;
 }
-.main{
-    width: 100vw;
-    height: 110vh;
-    background: url(/img/main-bg.png) no-repeat center;
-    background-size: cover;
-}
 .header-links{
     margin: 2px 0 0 62px;
 }
