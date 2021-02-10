@@ -192,6 +192,11 @@ header a{
     justify-content: space-between;
     margin-top: 15px;
 }
+.credit_percent,
+.credit_time,
+.credit_money{
+    flex: 4;
+}
 .credit_about{
     width: 500px;
 }
