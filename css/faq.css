@@ -1,10 +1,12 @@
 body{
     font-family: 'Manrope', sans-serif;
+    height: 100vh;
 }
 .wrapper{
     width: 100%;
     box-sizing: border-box;
     padding: 0 140px;
+    background-color: #F2F7FF;
 }
 header{
     height: 70px;
@@ -22,11 +24,7 @@ header a{
     line-height: 29px;
     color: #1C313B;
 }
-.main{
-    height: 110vh;
-    background: url(/img/main-bg.png) no-repeat center;
-    background-size: cover;
-}
+
 .header-links{
     margin: 2px 0 0 62px;
 }
@@ -45,7 +43,7 @@ header a{
     margin-left: 0;
 }
 .main_desc div:first-child{
-    width: 662px;
+    width: 850px;
     height: 168px;
     margin-top: 90px;
     font-style: normal;
@@ -53,103 +51,7 @@ header a{
     font-size: 48px;
     line-height: 56px;
 }
-.main_desc div:nth-child(2){
-    width: 462px;
-    height: 48px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.01em;
-    color: #068CC9;
-    margin-top: 20px;
-}
-.main_desc div:nth-child(3){
-    width: 172px;
-    height: 2px;
-    background-color: #068CC9;
-    margin-top: 50px;
-}
-.main_desc div:nth-child(4){
-    width: 188px;
-    height: 23px;
-    color: #C95C06;
-    font-weight: bold;
-    margin-top: 95px;
-}
-.main_cards{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.main_card{
-    padding: 24px;
-    width: 270px;
-    height: 289px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-    border-radius: 8px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-.main_card:hover{
-    border: 1px solid #C1F4FF;
-    transition: .5s;
-    transform: translateY(-5px);
-    cursor: pointer;
-    box-shadow: 0px 18px 30px -15px rgba(41, 41, 42, 0.2);
-}
-.main_card:hover .card_link-text{
-    color: #F18C3C;
-}
-.card_link_arrow{
-    width: 16px;
-    height: 16px;
-    background: url(/img/right-arrow.svg) no-repeat center;
-    margin-left: 10px;
-}
-.main_card:hover .card_link_arrow{
-    transform: translateX(5px);
-    background: url(/img/arrow.svg) no-repeat center;
-    transition: .3s;
-    cursor: pointer;
-}
-.card_img{
-    width: 36px;
-    height: 36px;
-}
-.card_name{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    margin-top: 37px;
-}
-.card_desc{
-    font-size: 14px;
-    line-height: 24px;
-    margin-top: 12px;
-}
-.card_link{
-    display: flex;
-    position: absolute;
-    bottom: 24px;
-}
-.card_link-text{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-decoration: none;
-    color: #068CC9;
-}
-.card_link img:hover{
-    transform: translateX(3px);
-    transition: .3s;
-    cursor: pointer;
-}
+
 
 /* ======================================================== */
 
@@ -195,15 +97,10 @@ header a{
 /* ======================================================== */
 
 .faq{
-    margin-top: 125px;
     background-color: #F2F7FF;
     box-sizing: border-box;
-    padding: 60px 0 80px 0;
+}
 
-}
-.faq .wrapper{
-    display: flex;
-}
 .name div:first-child{
     width: 404px;
     height: 128px;
@@ -215,7 +112,7 @@ header a{
     margin-top: 35px;
     width: 466px;
     height: 591px;
-    background: url(/img/faq-pic.svg) no-repeat top;
+    background: url(/img/faq-pic1.png) no-repeat top;
 }
 
 .collapse1,
@@ -226,16 +123,28 @@ header a{
     box-sizing: border-box;
     padding: 30px 0 30px 0;
 }
-.collapse2,
-.collapse4{
+.collapse5{
+    margin-top: 30px;
+}
+.collapse1{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.collapse2{
     box-sizing: border-box;
     padding: 30px 0 30px 0;
+}
+.collapse4{
+    padding-top: 30px;
+}
+.collapse2,
+.collapse3,
+.collapse4{
+    margin-left: 40px;
 }
 
 .lists{
     width: 100%;
-    margin-left: 25px;
-    padding-top: 100px;
 }
 .list{
     display: flex;
@@ -265,6 +174,7 @@ header a{
     font-weight: 600;
     font-size: 20px;
     line-height: 33px;
+    margin-left: 20px;
 }
 .card{
     margin-top: 20px;
@@ -279,12 +189,15 @@ header a{
 /* ======================================================== */
 
 .footer{
-    height: 100px;
+    height: 40vh;
 }
 .footer .wrapper{
     height: 100%;
     display: flex;
     align-items: center;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
 }
 .footer_content{
     width: 100%;
