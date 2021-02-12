@@ -2,6 +2,9 @@ body{
     font-family: 'Manrope', sans-serif;
     height: 100vh;
 }
+li{
+    list-style-type: none;
+}
 .wrapper{
     width: 100%;
     box-sizing: border-box;
@@ -117,30 +120,22 @@ header a{
 
 .collapse1,
 .collapse3,
-.collapse5{
+.collapse5,
+.collapse7,
+.collapse9,
+.collapse11{
     border-top: 1px solid #068CC9;
     border-bottom: 1px solid #068CC9;
     box-sizing: border-box;
     padding: 30px 0 30px 0;
 }
-.collapse5{
-    margin-top: 30px;
-}
-.collapse1{
-    border-bottom: none;
-    padding-bottom: 0;
-}
-.collapse2{
+.collapse2,
+.collapse4,
+.collapse6,
+.collapse8,
+.collapse10{
     box-sizing: border-box;
     padding: 30px 0 30px 0;
-}
-.collapse4{
-    padding-top: 30px;
-}
-.collapse2,
-.collapse3,
-.collapse4{
-    margin-left: 40px;
 }
 
 .lists{
